@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/information"
+        android:title="个人资料"
+        android:icon="@drawable/user"
+        android:typeface="serif"/>
+    <item
+        android:id="@+id/like"
+        android:title="收藏的新闻"
+        android:icon="@drawable/like_news"
+        android:typeface="serif"/>
+        <item
+            android:id="@+id/column"
+            android:title="收藏的栏目"
+            android:icon="@drawable/like_column"
+            android:typeface="serif"/>
+    <item
+        android:id="@+id/change_password"
+        android:title="修改密码"
+        android:icon="@drawable/change_password"
+        android:typeface="serif"/>
+    <item
+        android:id="@+id/out"
+        android:title="退出账号"
+        android:icon="@drawable/out"
+        android:typeface="serif"/>
+    <item
+        android:id="@+id/delete"
+        android:title="注销账号"
+        android:icon="@drawable/user_delete"
+        android:typeface="serif"/>
+    </group>
+</menu>
